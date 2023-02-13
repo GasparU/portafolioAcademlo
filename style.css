@@ -132,6 +132,12 @@ body{
     background-color: #1c1b1b;
     scroll-snap-align: center;
     opacity: 0.8;
+    transition-duration: 0.5s;
+    
+}
+.carousel-1:hover{
+    transform: translateY(-10%);
+    animation-duration: 0.2;
 }
 .fas{
     font-size: 50px;
@@ -342,6 +348,11 @@ section{
     }
     .carousel-1{
         width: 80%;
+        transition-duration: 0.5s;
+    }
+    .carousel-1:hover{
+        transform: translateY(-10%);
+        animation-duration: 0.2;
     }
     .secund-part{
         display: flex;
